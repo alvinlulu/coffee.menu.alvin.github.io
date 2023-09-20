@@ -1,0 +1,88 @@
+h1, h2, p{
+    text-align: center;
+}
+h1, h2{
+    /*use , add the backup font, make sure the font can display*/
+    font-family: Impact,serif;
+  }
+
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+h2{
+    font-size: 30px;
+  }
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;/*make edge same with line color*/
+  }
+/*body configration*/
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
+/*class name set*/
+.menu{
+    width: 80%;/*meaning make it 80% the width of its parent element(body)*/
+    max-width: 500px;/*set the max width, let the page can readable*/
+    background-color: burlywood;
+    /*make the title center horizontally*/
+    margin-left: auto;
+    margin-right: auto;
+    /*give the some space between the content and the sides*/
+    padding: 20px;
+  }
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+.price{ 
+    width:25%;
+    text-align: right;
+  }
+  /*make all item class p follow the properties*/
+.item p { 
+    display: inline-block;
+    /*gap between each line*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+.bottom-line{
+    margin-top: 25px;
+}
+.address {
+    margin-bottom: 5px
+  }
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
